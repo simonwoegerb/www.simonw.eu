@@ -1,0 +1,45 @@
+# Hugo generated output
+/public/
+/resources/_gen/
+/resources/
+/.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node dependencies (if using npm for theme assets)
+node_modules/
+
+# Hugo cache (optional but common)
+.hugo_cache/
+
+# Local environment files
+.env
+.env.*
+
+# Sass cache (if using dart-sass locally)
+.sass-cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# macOS metadata
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+ehthumbs.db
+Desktop.ini
+
+# Optional: local Netlify / CI artifacts
+.netlify/
