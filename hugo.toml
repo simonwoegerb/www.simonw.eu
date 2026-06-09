@@ -1,6 +1,5 @@
 baseURL = 'https://www.simonw.eu'
 locale = 'en-gb'
-title = '''Simon's Blog'''
 enableGitInfo = true
 [Params.author]
 name = 'Simon Woegerbauer'
@@ -11,9 +10,9 @@ github = 'simonwoegerb'
 sourceRepo = "https://github.com/simonwoegerb/www.simonw.eu/tree/main/content/"
 showSource = true
 dateFormat = ":date_long"
-commit = true
-homeTitle = '''Simon's Blog'''
-subTitle = "Engineering Adventures in all flavours"
+commit = "https://github.com/simonwoegerb/www.simonw.eu/commit/"
+homeTitle = '''Simon's FS Blog'''
+subTitle = "And other EE adventures"
 since = 2026
 rss = true
 readingTime = true
@@ -22,6 +21,13 @@ mainSections = ["posts", "pages"]
 toc = false
 color = "light"
 logo = "/img/me.jpg"
+mathEngine = "mathjax"
+[[Params.bigimg]]
+  src = "img/WAM01_Render.png"
+  desc = "© Copyright: FHOOE Racing Team"
+[[Params.bigimg]]
+  src = "img/TU_Braunschweig_Car.jpg"
+  desc = "© Copyright: TU Braunschweig"
 [[module.imports]]
 path = "github.com/halogenica/beautifulhugo"
 [menu]
@@ -32,11 +38,11 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 url = "/posts/"
 weight = 2
 
 [[menu.main]]
-name = "About"
+name = "About Me"
 url = "/about/"
 weight = 3
