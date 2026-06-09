@@ -1,5 +1,5 @@
 baseURL = 'https://www.simonw.eu'
-locale = 'en-us'
+locale = 'en-gb'
 title = '''Simon's Blog'''
 enableGitInfo = true
 [Params.author]
@@ -10,12 +10,12 @@ github = 'simonwoegerb'
 [Params]
 sourceRepo = "https://github.com/simonwoegerb/www.simonw.eu"
 dateFormat = ":date_long"
-commit = false
+commit = true
 since = 2026
 rss = true
 readingTime = true
 wordCount = true
-mainSections = ["post", "posts", "page"]
+mainSections = ["posts", "pages"]
 logo = "/img/me.jpg"
 [[module.imports]]
 path = "github.com/halogenica/beautifulhugo"

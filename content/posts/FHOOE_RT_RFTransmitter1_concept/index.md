@@ -3,7 +3,7 @@ title: "Race Car Telemetry Transmission"
 subtitle: "A concept for Formula Student"
 date: 2026-06-09
 categories: ["fsa", "formula student"]
-draft: false 
+summary: "The intial ideas for a Formula Student ready RF telemetry transmission system based on STM32"
 ---
 # The Reason
 Due to my current activity in the [FHOOE Racing Team](https://fhooe-racing.at/), it has come to happen that I am in charge of the RF-based telemetry transmission and analysis now.
