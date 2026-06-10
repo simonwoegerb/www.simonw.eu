@@ -2,10 +2,11 @@ baseURL = 'https://www.simonw.eu'
 locale = 'en-gb'
 enableGitInfo = true
 [Params.author]
-name = 'Simon Woegerbauer'
+name = 'Simon Wögerbauer'
 website = 'https://www.simonw.eu'
 email = 'simonwoegerbauer#outlook.com'
 github = 'simonwoegerb'
+discord = 'austerr'
 [Params]
 sourceRepo = "https://github.com/simonwoegerb/www.simonw.eu/tree/main/content/"
 showSource = true
@@ -22,12 +23,13 @@ toc = false
 color = "light"
 logo = "/img/me.jpg"
 mathEngine = "mathjax"
+disclaimerText = "No guarantees for any content of this page. All images used under Fair Use (non-commercially)."
 [[Params.bigimg]]
-  src = "img/WAM01_Render.png"
-  desc = "© Copyright: FHOOE Racing Team"
+src = "img/WAM01_Render.png"
+desc = "© Copyright: FHOOE Racing Team"
 [[Params.bigimg]]
-  src = "img/TU_Braunschweig_Car.jpg"
-  desc = "© Copyright: TU Braunschweig"
+src = "img/TU_Braunschweig_Car.jpg"
+desc = "© Copyright: TU Braunschweig"
 [[module.imports]]
 path = "github.com/halogenica/beautifulhugo"
 [menu]
