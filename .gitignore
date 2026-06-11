@@ -40,6 +40,3 @@ node_modules/
 # Windows metadata
 ehthumbs.db
 Desktop.ini
-
-# Optional: local Netlify / CI artifacts
-.netlify/

@@ -1,8 +1,10 @@
 ---
-title: "Blog Posts"
+title: "Devlogs and Other Posts"
 readingTime: false
 wordCount: false
 hideAuthor: true
-date: "" 
+date: "2026-06-09"
+showPageDates: false
+hidePostDates: true
+
 ---
-Welcome to my engineering adventures. 
