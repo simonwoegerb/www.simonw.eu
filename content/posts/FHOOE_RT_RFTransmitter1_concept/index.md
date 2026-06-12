@@ -2,8 +2,8 @@
 title: "Car → Pitwall Telemetry Transmission Solution | RF System: Part 1"
 subtitle: "A concept for Formula Student"
 date: 2026-06-09
-tags: ["rf", "formula student", "concept"]
-categories: ["FHOOE Racing Team Devlogs"]
+tags: ["rf", "formula student", "concept", "devlogs"]
+categories: ["Radio Frequency Telemetry System"]
 summary: "The intial ideas for a Formula Student ready RF telemetry transmission system based on STM32"
 ---
 # The Reason

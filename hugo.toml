@@ -20,13 +20,16 @@ subTitle = "Engineering Development in Formula Student and Embedded Systems"
 since = 2026
 rss = true
 readingTime = true
-wordCount = true
+wordCount = false
 mainSections = ["posts", "pages"]
 toc = false
 color = "light"
 logo = "/img/me.jpg"
 mathEngine = "mathjax"
-disclaimerText = "No guarantees for any content of this page. All images used under Fair Use (non-commercially). This project is not in any way affiliated with Formula Student in any official capacity."
+disclaimerText = """Unofficial development log. All content is provided “as is” without warranty of any kind regarding accuracy or completeness.
+Media content is used for documentation and reference; all rights remain with their respective owners.
+This project is independent and not affiliated with Formula Student or the FH OÖ Racing Team."""
+favicon = "img/me.jpg"
 [[Params.bigimg]]
 src = "img/WAM01_Render.png"
 desc = "© Copyright: FHOOE Racing Team"
@@ -43,15 +46,15 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
-url = "/posts/"
+name = "Projects"
+url = "/pages/projects"
 weight = 2
 
 [[menu.main]]
 name = "About Me"
-url = "/about/"
+url = "/pages/about-me/"
 weight = 3
 [sitemap]
-changefreq = 'weekly'
+changefreq = 'daily'
 disable = false
 priority = 0.8

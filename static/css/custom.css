@@ -1,0 +1,23 @@
+.projects {
+    max-width: 900px;
+    margin: 60px auto;
+    /* top/bottom + centered horizontally */
+    padding: 0 20px;
+    /* prevents text touching edges on mobile */
+}
+
+.ai-policy {
+    max-width: 900px;
+    margin: 60px auto;
+    /* top/bottom + centered horizontally */
+    padding: 0 20px;
+    /* prevents text touching edges on mobile */
+}
+
+.about-me {
+    max-width: 900px;
+    margin: 60px auto;
+    /* top/bottom + centered horizontally */
+    padding: 0 20px;
+    /* prevents text touching edges on mobile */
+}

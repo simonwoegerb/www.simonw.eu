@@ -6,5 +6,4 @@ hideAuthor: true
 date: "2026-06-09"
 showPageDates: false
 hidePostDates: true
-
 ---

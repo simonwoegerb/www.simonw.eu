@@ -1,8 +1,9 @@
 ---
 title: "AI Policy"
-date: 2026-06-11
 readingTime: false
 wordCount: false
+type: "page"
+layout: "ai-policy"
 hidden: true
 ---
 

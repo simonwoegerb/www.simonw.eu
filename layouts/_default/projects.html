@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ $pages := where .Site.RegularPages "Params.categories" "intersect" (slice "Radio Frequency Telemetry System") }}
+
+{{ $sorted := sort $pages "Date" "asc" }}
+<article class="projects">
+    <h2> Radio Frequency Telemetry System</h2>
+    <ul>
+        {{ range $sorted }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</article>
+
+{{ end }}
