@@ -8,7 +8,7 @@ summary: "The intial ideas for a Formula Student ready RF telemetry transmission
 ---
 # The Reason
 Due to my current activity in the [FHOOE Racing Team](https://fhooe-racing.at/), it has come to happen that I am in charge of the RF-based telemetry transmission and analysis now.
-Laying aside my lack of experience with anything beyond the word RF, I will attempt my best to document my design choices and suffering in this blog.
+Laying aside my lack of experience with anything beyond the word RF, I will attempt my best to document my design choices and suffering in this devlog.
 # The Concept
 In essence, a STM32 based solution was chosen. A custom receiver and transmitter board (ideally the same PCB can be reused) will be designed and tested.
 
