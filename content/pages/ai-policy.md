@@ -5,6 +5,7 @@ wordCount: false
 type: "page"
 layout: "ai-policy"
 hidden: true
+description: "The AI policy for this devlog website"
 ---
 
 ## AI Usage Policy
